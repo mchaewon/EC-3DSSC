@@ -1,0 +1,29 @@
+# data, checkpoints, outputs
+/dataset
+/ckpts/
+/work_dirs/
+/outputs/
+/results/
+/vis_output/
+/event*/
+*.pth
+*.ckpt
+*.pkl
+
+# experiment helpers that are not part of the release
+/apply_exp*.py
+/precompute_moving_mask*.py
+/setup_all_experiments.py
+
+# images
+*.png
+
+# build artifacts
+__pycache__/
+*.pyc
+*.so
+*.o
+build/
+*.egg-info/
+.vscode/
+.idea/
